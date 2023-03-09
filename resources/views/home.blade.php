@@ -184,7 +184,7 @@
                 task.priority = sourceTask.priority
                 sourceTask.priority = taskPriority
 
-                fetch(`http://task-project.local/api/tasks/${task.id}/${sourceTask.id}`, {
+                fetch(`http://127.0.0.1:8001/api/tasks/${task.id}/${sourceTask.id}`, {
                     method: "PATCH",
                     headers: {
                         'Accept': 'application/json',
@@ -219,7 +219,7 @@
             const taskNode = event.target.parentNode.parentNode
             const taskId = event.target.dataset.taskid
 
-            fetch(`http://task-project.local/api/tasks/${taskId}`, {
+            fetch(`http://127.0.0.1:8001/api/tasks/${taskId}`, {
                 method: "DELETE",
                 headers: {
                     'Accept': 'application/json',
