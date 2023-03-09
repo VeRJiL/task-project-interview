@@ -10,3 +10,4 @@
 
 ### Note:
 - I could use docker in order to simplify the process of bootstrapping the project but due to the lack of time I had no choice to choose this way.
+- You can also get this project from `https://github.com/VeRJiL/task-project-interview`
